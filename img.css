@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+background-color: lightblue;
+}
+
+ 
+
+header{
+   
+    display: flex;
+    position: fixed;
+    
+}
+
+section{
+    height: 100vh;
+}
+
+header ul li{
+    margin: 20px;
+    list-style-type: none;
+   
+}
+
+
+
+ svg {
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100% !important;
+	height: auto;
+	max-width: 500px;
+	max-height: 340px;
+    background: none;
+
+}
+.path{
+	stroke-dashoffset: 1000;
+	stroke-dasharray: 1000}
+
+    #about h1{
+        text-align: center;
+        color: white;
+        font-size: 13rem;
+    }
+
+
+   #resume h1{
+        text-align: center;
+        color: white;
+        opacity: 53%;
+        font-size: 13rem;
+        z-index: 1;
+         
+    }
+#project h1{
+    text-align: center;
+    color: white;
+    opacity: 33%;
+    font-size: 13rem;
+}
+
+    img{
+ overflow-x: hidden;
+   
+display: block; }
+
+div {
+    color: white;
+   align-items: center;
+ 
+}
+
+#last{
+    display: flex;
+   
+}
+
+#last ul li{
+ 
+list-style: none;
+margin: 7rem;
+/* display: inline-flex; */
+opacity: 76%;
+text-align:center;
+/* 
+margin-top: 30rem; */
+font-size: 32px;
+cursor: pointer;
+
+}
+
+
+
+
+.scroll-icon {
+    position: relative;
+    margin: 2em;
+    width: 2em;
+    height: 4em;
+    border: .3em solid #fff;
+    border-radius: 2em;
+     
+  margin-left: 60rem;
+  margin-top:30rem;
+   
+}
+
+.scroll-icon.ex-1 .wheel {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width: .6em;
+    height: .6em;
+    background-color: #fff;
+    transform: translate(-50%, 0);
+    border-radius: .6em;
+    animation: ex-1-wheel 1s ease-in-out infinite;
+}
+
+@keyframes ex-1-wheel {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 0;
+    }
+
+    20%,
+    70% {
+        opacity: 1;
+    }
+
+    90%,
+    100% {
+        transform: translate(-50%, 150%);
+        opacity: 0;
+    }
+}
