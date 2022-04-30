@@ -1,97 +1,101 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
-background-color: lightblue;
+    background-color: lightblue;
 }
 
- 
 
-header{
-   
+
+header {
+
     display: flex;
     position: fixed;
-    
+
 }
 
-section{
+section {
     height: 100vh;
 }
 
-header ul li{
+header ul li {
     margin: 20px;
     list-style-type: none;
-   
+
 }
 
 
 
- svg {
-	position: fixed;
-	margin: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100% !important;
-	height: auto;
-	max-width: 500px;
-	max-height: 340px;
+svg {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: auto;
+    max-width: 500px;
+    max-height: 340px;
     background: none;
 
 }
-.path{
-	stroke-dashoffset: 1000;
-	stroke-dasharray: 1000}
 
-    #about h1{
-        text-align: center;
-        color: white;
-        font-size: 13rem;
-    }
+.path {
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000
+}
+
+#about h1 {
+    text-align: center;
+    color: white;
+    font-size: 13rem;
+}
 
 
-   #resume h1{
-        text-align: center;
-        color: white;
-        opacity: 53%;
-        font-size: 13rem;
-        z-index: 1;
-         
-    }
-#project h1{
+#resume h1 {
+    text-align: center;
+    color: white;
+    opacity: 53%;
+    font-size: 13rem;
+    z-index: 1;
+
+}
+
+#project h1 {
     text-align: center;
     color: white;
     opacity: 33%;
     font-size: 13rem;
 }
 
-    img{
- overflow-x: hidden;
-   
-display: block; }
+img {
+    overflow-x: hidden;
+
+    display: block;
+}
 
 div {
     color: white;
-   align-items: center;
- 
+    align-items: center;
+
 }
 
-#last{
+#last {
     display: flex;
-   
+
 }
 
-#last ul li{
- 
-list-style: none;
-margin: 7rem;
-/* display: inline-flex; */
-opacity: 76%;
-text-align:center;
-/* 
+#last ul li {
+
+    list-style: none;
+    margin: 7rem;
+    /* display: inline-flex; */
+    opacity: 76%;
+    text-align: center;
+    /* 
 margin-top: 30rem; */
-font-size: 32px;
-cursor: pointer;
+    font-size: 32px;
+    cursor: pointer;
 
 }
 
@@ -105,10 +109,10 @@ cursor: pointer;
     height: 4em;
     border: .3em solid #fff;
     border-radius: 2em;
-     
-  margin-left: 60rem;
-  margin-top:30rem;
-   
+
+    margin-left: 60rem;
+    margin-top: 30rem;
+
 }
 
 .scroll-icon.ex-1 .wheel {
